@@ -1,6 +1,5 @@
 const args = process.argv.slice(2);
-const arr = args.sort((a, b) => a - b)
-console.log(arr)
+const arr = args.sort((a, b) => a - b);
 
 if (arr.length === 0) {
 } else {
@@ -9,11 +8,7 @@ if (arr.length === 0) {
     } else {
       setTimeout(() => {
         process.stdout.write('\x07');
-      }, number*1000)
+      }, number * 1000);
     }
   }
 }
-
-
-
-//if(arr.length === 0) {}
